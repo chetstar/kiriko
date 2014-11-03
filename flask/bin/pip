@@ -1,4 +1,4 @@
-#!/home/chet/Desktop/kiriko/python-getting-started/flask/bin/python
+#!/home/chet/Desktop/kiriko/flask/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==1.4.1','console_scripts','pip'
 __requires__ = 'pip==1.4.1'
 import sys
