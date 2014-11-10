@@ -1,6 +1,6 @@
 from flask import render_template
 from app import app, mail
-from flask import Flask, request
+from flask import Flask, request,flash
 from form import formx
 from flask.ext.mail import Message
 import os
@@ -23,7 +23,7 @@ def index():
     if request.method== 'POST':
         subject=form.subject.data
         message=form.name.data+' said '+form.message.data+" form "+form.email.data
-        send_email(subject,'xxx',['chetstar@gmail.com'],message)
+        send_email(subject,'form.email.data',['kiriko.brindley@gmail.com'],message)
     return render_template('index.html',form=form)
 
 @app.route('/signUpUser', methods=['POST'])

@@ -8,8 +8,8 @@ MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
 MAIL_USERNAME = 'chetmeinzersf'
-# MAIL_PASSWORD = str(os.environ.get('cpw'))
-MAIL_PASSWORD = '3Machine'
+MAIL_PASSWORD = str(os.environ.get('cpw'))
+# MAIL_PASSWORD = 'x'
 
 # administrator list
 # ADMINS = ['chetstar@gmail.com']
