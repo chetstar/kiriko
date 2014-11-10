@@ -342,15 +342,15 @@ hr {
 	text-decoration: none;
 	text-transform: uppercase;
 	border-width: 0px;
-	border-color: #000;
+	border-color: #b2b2b2;
 	border-style: none;
-	text-shadow: -1px 0 1px #000;
+	text-shadow: -1px 0 1px #b2b2b2;
 }
 
 .intro .slogan h4 {
 	color: #fff;
     BACKGROUND-COLOR: black;
-	text-shadow: -1px 1px 1px #000;
+	text-shadow: -1px 1px 1px #b2b2b2;
 }
 
 
@@ -594,12 +594,25 @@ Parallax
     border-radius: 50%;
     font-size: 40px;
     color: #fff;
+    background: #000000;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.btn-circlex {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
-
 .btn-circle.btn-dark {
     border: 2px solid #666;
     color: #666;
@@ -627,10 +640,10 @@ Parallax
 
 .page-scroll .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
+    -webkit-transition-duration: 2s;
     -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-    
+    -moz-transition-duration: 2s;
+
 }
 
 .page-scroll .btn-circle:hover i.animated {
