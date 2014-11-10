@@ -234,7 +234,6 @@
 			</div>
 		</div>
 		<div class="container">
-
 		<div class="row">
 			<div class="col-lg-2 col-lg-offset-5">
 				<hr class="marginbot-50">
@@ -243,13 +242,13 @@
     <div class="row">
         <div class="col-lg-8">
             <div class="boxed-grey">
-                <form id="contact-form">
+                <form id="contact-form"  method="post">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -257,16 +256,16 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
                         </div>
                         <div class="form-group">
                             <label for="subject">
                                 Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
+                            <select id="subject" name="subject" class="form-control" name="subject" required="required">
                                 <option value="na" selected="">Choose One:</option>
-                                <option value="service">General Customer Service</option>
+                                <option value="service">Transcription</option>
                                 <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
+                                <option value="product">Other</option>
                             </select>
                         </div>
                     </div>
@@ -279,8 +278,8 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            Send Message</button>
+                       <!--- <button type="submit" class="btn btn-skin pull-right" id="btnContactUs"  Send Message</button> -->
+                           {{ wtf.form_field(form.submit) }} 
                     </div>
                 </div>
                 </form>
