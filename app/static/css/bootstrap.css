@@ -239,7 +239,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: orange !important;
   }
   .btn > .caret,
   .dropup > .btn > .caret {

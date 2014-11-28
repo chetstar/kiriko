@@ -81,15 +81,20 @@ a:focus {
 
 .navbar-brand:focus {
     outline: 0;
+      color: #EEF0EE;
+         background-color: rgba(215, 44, 255, 0.9);
 
 }
 
-.nav.navbar-nav {
-    background-color: rgba(215, 44, 255, 0.8);
+.nav.navbar-nav {;
+      color: #EEF0EE;
+         background-color: rgba(215, 44, 255, 0.9);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(215, 44, 255, 0.3);
+;
+      color: #EEF0EE;
+         background-color: rgba(215, 44, 255, 0.9);
 }
 
 
