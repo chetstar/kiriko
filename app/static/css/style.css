@@ -87,13 +87,13 @@ a:focus {
 }
 
 .nav.navbar-nav {;
-      color: #EEF0EE;
+      color: black;
          background-color: rgba(215, 44, 255, 0.9);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
 ;
-      color: #EEF0EE;
+      color: black;
          background-color: rgba(215, 44, 255, 0.9);
 }
 
@@ -744,7 +744,7 @@ Parallax
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background:  rgba(255,0,255,1);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -756,7 +756,9 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid  rgba(255,0,255,1);
+            color: rgba(255,0,255,1);
+    background-color: rgba(255,0,255,1);
     }
 	
     .intro {
@@ -791,11 +793,14 @@ Parallax
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    color: rgba(255,0,255,1);
+    background-color: rgba(255,0,255,1);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
+        color: rgba(255,0,255,1);
+    background-color: rgba(255,0,255,1);
 	}
 	
 	.tp-banner-container {
