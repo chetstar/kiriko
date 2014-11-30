@@ -32,3 +32,17 @@ def signUpUser():
     password = request.form['password'];
     return json.dumps({'status':'OK','user':user,'pass':password});
 
+@app.route('/transcription', methods=['GET'])
+def transcription():
+    print 'transcription'
+    return render_template('transcription.html')
+
+@app.route('/media', methods=['get'])
+def media():
+    print 'media'
+    return render_template('media.html')
+
+@app.route('/other', methods=['GET'])
+def other():
+    print 'other'
+    return render_template('other.html')
