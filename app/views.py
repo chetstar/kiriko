@@ -32,17 +32,17 @@ def signUpUser():
     password = request.form['password'];
     return json.dumps({'status':'OK','user':user,'pass':password});
 
-@app.route('/transcription', methods=['GET'])
-def transcription():
-    print 'transcription'
-    return render_template('transcription.html')
+@app.route('/projects', methods=['GET'])
+def projects():
+    print 'projects'
+    return render_template('projects.html')
 
-@app.route('/media', methods=['get'])
-def media():
-    print 'media'
-    return render_template('media.html')
+@app.route('/references', methods=['get'])
+def references():
+    print 'references'
+    return render_template('references.html')
 
-@app.route('/other', methods=['GET'])
-def other():
-    print 'other'
-    return render_template('other.html')
+@app.route('/photography', methods=['GET'])
+def photography():
+    print 'photography'
+    return render_template('photography.html')
