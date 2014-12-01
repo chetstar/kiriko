@@ -592,15 +592,15 @@ Parallax
 
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: #000000;
+width: 70px;
+height: 70px;
+margin-top: 15px;
+padding: 7px 16px;
+border: 2px solid #E090D9;
+border-radius: 50%;
+font-size: 40px;
+background: none repeat scroll 0% 0% #000;
+color: #D75252;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -613,7 +613,7 @@ Parallax
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 40px;
-    color: #fff;
+    color: black
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -808,13 +808,15 @@ Parallax
 	}
 
 	.page-scroll a.btn-circle {
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
-		padding: 7px 0;
-		border: 2px solid #fff;
-		border-radius: 50%;
-		font-size: 20px;
+	width: 70px;
+height: 70px;
+margin-top: 15px;
+padding: 7px 16px;
+border: 2px solid #E090D9;
+border-radius: 50%;
+font-size: 40px;
+background: none repeat scroll 0% 0% #000;
+color: #D75252;
 	}
 	
 }
